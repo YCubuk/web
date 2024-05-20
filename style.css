@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.buttons {
+  text-align: right; /* Align buttons to the right */
+}
+
+.buttons a {
+  display: inline-block;
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  border: 1px solid #ccc; /* Simple border for buttons */
+}
+
+.buttons a:hover {
+  background-color: #eee; /* Change button color on hover */
+}
+
+main {
+  display: flex; /* Use flexbox for side-by-side layout */
+}
+
+.profile-picture {
+  flex: 0 0 200px; /* Set fixed width for picture area */
+  padding: 10px;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  flex: 1; /* Content area takes up remaining space */
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
