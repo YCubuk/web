@@ -42,7 +42,7 @@ main {
 
 .content {
   flex: 1; /* Content area takes up remaining space */
-  padding: 10px;
+  padding: 30px;
 }
 
 footer {
