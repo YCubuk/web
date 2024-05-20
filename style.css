@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   margin: 0;
+  margin-right=10px
   padding: 0;
 }
 
@@ -42,7 +43,7 @@ main {
 
 .content {
   flex: 1; /* Content area takes up remaining space */
-  padding: 30px;
+  padding: 10px;
 }
 
 footer {
